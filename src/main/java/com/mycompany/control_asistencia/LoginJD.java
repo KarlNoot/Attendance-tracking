@@ -330,6 +330,8 @@ public class LoginJD extends javax.swing.JDialog {
 
         jTextField1.addActionListener(this::jTextField1ActionPerformed);
 
+        jPasswordField1.addActionListener(this::jPasswordField1ActionPerformed);
+
         jLabel14.setFont(new java.awt.Font("Bahnschrift", 1, 18)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Contraseña");
@@ -499,6 +501,10 @@ public class LoginJD extends javax.swing.JDialog {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField1ActionPerformed
 
     /**
      * @param args the command line arguments
