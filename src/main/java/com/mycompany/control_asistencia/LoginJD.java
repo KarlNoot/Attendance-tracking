@@ -8,14 +8,14 @@ package com.mycompany.control_asistencia;
  *
  * @author alumnog
  */
-public class EnviarCorreoJD extends javax.swing.JDialog {
+public class LoginJD extends javax.swing.JDialog {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(EnviarCorreoJD.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(LoginJD.class.getName());
 
     /**
      * Creates new form EnviarCorreoJD
      */
-    public EnviarCorreoJD(java.awt.Frame parent, boolean modal) {
+    public LoginJD(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
@@ -342,6 +342,7 @@ public class EnviarCorreoJD extends javax.swing.JDialog {
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("INGRESAR");
+        jButton3.addActionListener(this::jButton3ActionPerformed);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -495,6 +496,10 @@ public class EnviarCorreoJD extends javax.swing.JDialog {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -520,7 +525,7 @@ public class EnviarCorreoJD extends javax.swing.JDialog {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                EnviarCorreoJD dialog = new EnviarCorreoJD(new javax.swing.JFrame(), true);
+                LoginJD dialog = new LoginJD(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {
                     @Override
                     public void windowClosing(java.awt.event.WindowEvent e) {
