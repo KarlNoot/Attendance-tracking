@@ -322,7 +322,7 @@ public class Control_Asistencia extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEnviarCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarCorreoActionPerformed
-    EnviarCorreoJD ventana = new EnviarCorreoJD(this, false);
+    LoginJD ventana = new LoginJD(this, false);
     ventana.setVisible(true);
      System.out.println("Codigo Continuando");
      ventana.setVisible(true);
